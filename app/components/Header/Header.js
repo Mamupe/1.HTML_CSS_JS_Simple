@@ -1,13 +1,14 @@
+import './Header.css';
 
 export const Header = () => `
 <nav>
     <ul>
         <li>
-            <a href="#" id="homelink">Home</a>
+            <button><a href="#" id="homelink">Home</a></button>
         </li>
       
         <li>
-            <a href="#" id="countrieslink">Countries</a>
+        <button><a href="#" id="countrieslink">Countries</a></button>
         </li>
 
     </ul>

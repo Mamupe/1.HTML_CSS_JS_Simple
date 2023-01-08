@@ -1,0 +1,12 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dghnwllrc/image/upload/v1673189288/project%20world/maderaBgCountries_btpkoi.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    
+}
+
