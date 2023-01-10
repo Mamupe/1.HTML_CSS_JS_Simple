@@ -1,0 +1,25 @@
+footer {
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://res.cloudinary.com/dghnwllrc/image/upload/v1673186213/project%20world/madera_wb8rmq.jpg");
+}
+
+.footCont {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.footCont > p {
+    font-size: small;
+    font-weight: 100;
+}
+
+.git {
+    height: 27px;
+}
+
+.linkedin {
+    height: 27px; 
+}

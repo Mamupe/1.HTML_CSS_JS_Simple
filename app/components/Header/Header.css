@@ -30,6 +30,6 @@ button {
     
 }
 
-a {
+nav > ul > li > button > a {
     padding: 7px;
 }

@@ -3,16 +3,29 @@ import './Countries.css';
 import { CountryGallery } from '../../components/CountriGallery/CountryGalery';
 import { getData } from '../../service/service';
 import { cleanPage } from '../../utils/cleanPage';
+import { loading } from '../../utils/loading';
 
 export const Countries = () => {
   const getCountries = async () => {
     const countries = await getData();
-    console.log(countries);
-    printCountries(countries);
+
+    let listaCountries = countries;
+    listaCountries.sort((a, b) => {
+      if (a.name.common > b.name.common) return 1;
+      if (a.name.common < b.name.common) return -1;
+      return 0;
+    });
+    printLoading();
+    setTimeout(() => printCountries(listaCountries), 1000);
+  };
+  const printLoading = () => {
+    let loadingContainer = document.querySelector('.gallery');
+    loadingContainer.innerHTML += loading();
   };
 
   const printCountries = (list) => {
     const countriesContainer = document.querySelector('.gallery');
+    cleanPage(countriesContainer);
     for (const element of list) {
       countriesContainer.innerHTML += CountryGallery(element);
     }
