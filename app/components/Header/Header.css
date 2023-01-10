@@ -30,6 +30,10 @@ button {
     
 }
 
+button:hover{
+opacity: 0.8;
+}
+
 nav > ul > li > button > a {
     padding: 7px;
 }

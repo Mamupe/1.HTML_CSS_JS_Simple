@@ -5,10 +5,17 @@
     align-items: center;
     justify-content: center;
     height: 84vh;
+    background-image: url("https://res.cloudinary.com/dghnwllrc/image/upload/v1673174685/project%20world/wood-591614_awuuri.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
 
 }
 
 .homeCont > h1 {
+    display:flex;
+    justify-content: center;
     background: #000000;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -20,6 +27,8 @@
 }
 
 .homeCont > h3 {
+    display: flex;
+    justify-content: center;
     background: #000000;
     -webkit-background-clip: text;
     -moz-background-clip: text;

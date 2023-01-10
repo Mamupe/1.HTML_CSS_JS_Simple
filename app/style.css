@@ -17,13 +17,7 @@ li {
   list-style-type: none;
 }
 
-#app {
- 
-  background-image: url("https://res.cloudinary.com/dghnwllrc/image/upload/v1673174685/project%20world/wood-591614_awuuri.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position:center;
-}
+
 
 .load {
   display: flex;

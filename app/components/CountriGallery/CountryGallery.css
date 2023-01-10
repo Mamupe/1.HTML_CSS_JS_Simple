@@ -35,3 +35,10 @@ border: rgba(0,0,0,.3) inset 7px;
 .Country > ul {
     font-size: medium;
 }
+
+.map {
+    color: whitesmoke;
+}
+.map:hover {
+    color:rgba(0, 0, 0, 0.774);
+}
