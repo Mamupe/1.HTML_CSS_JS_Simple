@@ -7,7 +7,9 @@ footer {
 
 .footCont {
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
+    align-content: center;
     justify-content: space-around;
 }
 
@@ -22,4 +24,8 @@ footer {
 
 .linkedin {
     height: 27px; 
+}
+
+.logo {
+    margin-top: 4px;
 }

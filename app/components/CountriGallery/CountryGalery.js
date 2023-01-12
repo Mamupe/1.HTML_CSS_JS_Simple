@@ -8,6 +8,7 @@ export const CountryGallery = (element) => `
 <li><strong>Continent:</strong> ${element.continents}</li>
 <li><strong>Capital:</strong> ${element.capital}</li>
 <li><strong>Population:</strong> ${element.population}</li>
+
 <li><strong>Map: </strong><a  class="map" target="blank" href="${
   element.maps.googleMaps
 }">Click to view</a></li>

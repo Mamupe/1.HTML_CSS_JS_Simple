@@ -8,7 +8,7 @@ import { loading } from '../../utils/loading';
 export const Countries = () => {
   const getCountries = async () => {
     const countries = await getData();
-
+    console.log(Object.keys(countries[0].languages)[0]);
     let listaCountries = countries;
     listaCountries.sort((a, b) => {
       if (a.name.common > b.name.common) return 1;
