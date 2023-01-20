@@ -1,1 +1,1 @@
-export const loading = () => `<div class="load"><h1>Loading...</h1></div>`;
+export const loading = () => `<div class="load"><span class="loader"></span></div>`;

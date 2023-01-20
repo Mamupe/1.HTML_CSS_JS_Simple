@@ -16,7 +16,7 @@ export const Countries = () => {
       return 0;
     });
     printLoading();
-    setTimeout(() => printCountries(listaCountries), 1000);
+    setTimeout(() => printCountries(listaCountries), 800);
   };
   const printLoading = () => {
     let loadingContainer = document.querySelector('.gallery');
